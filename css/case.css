@@ -1,0 +1,69 @@
+.wrapper_other{
+	width:76%;
+	margin:80px auto;}
+.list_other{
+	float:left;
+	display:block;
+	width:24.5%;
+	padding-left: 1px;
+	margin-bottom:80px;
+	}
+.title_other{
+	width:100%;
+	height:246px;
+	background-color:#888;
+	font-size:28px;}
+.title_other p{float:left;line-height:36px;color:#fff;margin:54px auto auto 48px;}
+.title_o p{float:left;line-height:36px;color:#fff;margin:34px auto auto 48px;}
+.title_o{
+	width:100%;
+	height:246px;
+	background-color:#888;
+	font-size:28px;}
+
+.case{height:320px;
+	border-left:1px solid #888;
+	margin-left:20px;
+	margin-top:0px;
+	overflow:auto;
+	
+	}
+.case a:hover{text-decoration:none;}
+.case h3{font-size:12px;color:#333;font-weight:400;padding-top:10px;}
+.case p{font-size:10px;color:#888;font-weight:400;text-decoration:none;margin-top:-20px;}
+
+/* 案例&衍生内容页样式－3.12日新增 */
+.content{width:76%;height:640px;margin:6px auto;border-left:1px solid #888;}/*4.15修改高度*/
+
+.title_content{
+	width:%90;
+	height:204px;
+	background-color:#888;
+	font-size:24px;
+	margin-left:36px;
+	margin-top:46px;}
+.title_content p{float:left;line-height:36px;color:#fff;margin:30px auto auto 28px;}
+.case_c{
+	width:200px;
+	height:360px;
+	margin-left:38px; /*4.15对齐修改*/
+	margin-top:0px;
+	overflow:auto;
+	padding-bottom:20px;
+	border-bottom:10px solid #888;  /*4.5日左侧列表滚动条调整大小，增加下边装饰*/
+	}
+.case_c a:hover{text-decoration:none;}
+.case_c h3{font-size:12px;color:#333;font-weight:400;padding-top:10px;}
+.case_c p{font-size:10px;color:#888;font-weight:400;text-decoration:none;margin-top:-20px;}
+
+.right{float:left;width:75.1%;height:auto;;border-left:1px solid #888;border-right:1px solid #888;}
+.essay{width:90%;margin:68px auto auto 36px;}
+.essay h1{font-weight:400;font-size:18px;}
+.essay h3{font-weight:400;font-size:12px;margin-top:-12px;color:#888;line-height:28px;}
+.essay h4{font-weight:400;font-size:12px;margin-top:14px;border-top:2px solid #555;padding-top:10px;}
+.essay p{font-weight:400;font-size:12px;line-height:28px;}
+.image-set{margin:0 auto;}
+.f2{float:left;width:23%;margin:28px 1.3% 0 0;}
+.f3{float:left;width:23%;margin:28px 1.3%;}
+.f4{float:left;width:23%;margin:28px 1.3%;}
+.f5{float:left;width:23%;margin:28px 0 0 1.3%;}

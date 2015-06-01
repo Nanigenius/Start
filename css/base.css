@@ -1,0 +1,45 @@
+.clear{clear:both;}
+* {margin:0; padding:0;list-style:none; text-decoration:none;color:#333;}
+body{
+	
+	width:100%;
+	margin:0 auto;
+	z-index:0;
+	font-family: helvetica,"Microsoft YaHei";
+	
+	}
+body.no-support-wpf { font-family: helvetica, arial,SimSun; }
+
+#header{
+	
+	height:118px;
+	margin:0 auto;
+	z-index:2;
+	}
+.page_head{
+	height:76px;
+	margin:9px 2.5% 2px 2.5%;
+	}
+.page_head p{color:#bbb;font-size:10px;float:right;}
+.nav{
+	
+	height:44px;
+	margin:-10px auto 0 0;
+	position: relative;
+	z-index:5;
+	background-image:url(../img/index/nav1.png); /*2.12关于导航条背景透明度的修改 */
+	background-position:0;
+	background-repeat:repeat-x;
+	}
+
+.nav p{color:#fff;
+	line-height:45px; /* 导航条字体垂直居中 */
+	text-indent:6px;margin:0 auto auto 0.6%;font-size:13px; /* 2.13日修改 */
+	}
+.nav p a{color:#fff;margin:0 1.6em;}
+.nav a:hover{text-decoration:none;color:#eee;}
+/* about,contact,extend files */
+
+/*end*/
+.footer{clear:both;margin:40px auto 0 0;padding-top:2px;height:42px;background:#f7f7f7;}/*新增加了clear:both清除浮动 */
+.footer p{text-align:center;color:#aaa;margin-top:10px;font-size:10px;letter-spacing:0.05em;}

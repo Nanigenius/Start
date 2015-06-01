@@ -1,0 +1,45 @@
+#article{
+	width:980px;
+	margin:20px auto;
+	}
+.tab{
+	width:764px;
+	float:left;
+	}
+#myTab a{padding:0.7em 2em;border-radius:20px 0 0 0;}
+#myTab a:hover{background-color:#fffe7f;}
+
+.tab-content{
+	height:260px;
+	font-size:16px;
+	padding-top:20px;
+	margin:-20px auto auto auto;
+	border-radius:0px 0px 20px 20px;
+	background:#fff;}
+.tab-pane a{color:#333;line-height:32px;margin-left:6px;}
+.tab-pane a:hover{text-decoration:none;color:#636060;}
+.tab-pane span{float:right;color:#aaa;padding-right:40px;}
+.more-link a{float:right;padding-right:40px;}
+.activity{
+	width:192px;
+	height:160px;
+	float:left;
+	margin:40px auto auto 16px;
+	background:#fff;
+	border-radius:20px 0;
+	
+	}
+.activity p{margin:-20px auto auto 50px;}
+.activity h4{font-size:1.5em;margin:26px auto 10px 34px;color:#86c7fa;font-weight:200;}
+.activity li{margin:auto auto 10px 10px;}
+.activity li a{color:#333;line-height:30px;}
+.activity li a:hover{text-decoration:none;color:#8c8c8c;}
+.shadowed{
+	border:3px solid #fff;
+
+	-o-box-shadow:0 12px 8px -9px #555;
+	-moz-box-shadow:0 12px 8px -9px #555;
+	-webkit-box-shadow:0 12px 8px -9px #555;
+	box-shadow:0 12px 8px -9px #555;
+	}
+	

@@ -1,0 +1,20 @@
+.event{
+	width:1020px;
+	margin:-10px auto;
+	position:relative;
+		padding:0;
+	}
+.container h3{clear:both;color:#333;font-size:12px;line-height:10px;font-weight:400;text-align:center;margin:0 auto;padding-top:14px;}
+.event_list{
+	width:100%;
+	float:left;
+	margin:60px auto 48px;
+	}
+.container img{border:5px solid #fff;border-radius: 24px;-moz-border-radius:24px;}
+
+.container{display:block;
+	margin:0px 26px;
+	float:left;
+	width:200px;
+	};
+#image-row{margin-top:-20px;}

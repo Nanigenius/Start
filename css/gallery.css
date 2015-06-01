@@ -1,0 +1,99 @@
+.gallery{margin:0px auto;width:980px;}
+.gallery p{font-size:18px;color:#fff;margin:180px auto auto 36px;}
+.row1{margin:60px auto auto 0px;
+	float:left;}
+.box1{
+	float:left;
+	width:245px;
+	height:245px;
+	background-image:url(../img/gallery/w1.jpg);
+	background-color:#aaa;
+	display:block;
+	}/*4.5日修改了每个盒子的背景颜色*/
+.box1 a{text-decoration:none;}
+.box1 li ul{
+	opacity:0;visibility:hidden;
+	position:absolute;
+	width:242px;
+	height:242px;
+	margin:-200px auto auto 220px;/*4.11日修改了悬浮弹出框的定位*/
+	line-height:36px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	transition:0.5s all;
+	}
+.box1 li:hover > ul{width:242px;height:242px;
+opacity:1;visibility:visible;border:1px solid #555;}
+.word{margin:12px 20px 40px 40px;width:168px;height:242px;overflow:hidden;} /*4.5日修改了width属性，为了解决文字溢出问题*/
+.word a{line-height:24px;color:#555;font-size:12px;}
+
+
+.box2{float:left;
+	width:245px;
+	height:245px;
+	background-image:url(../img/gallery/w2.jpg);
+	background-color:#aaa;
+	margin:auto auto auto 245px;
+	display:block;
+	}
+.box2 a{text-decoration:none;}
+.box2 li ul{
+	opacity:0;visibility:hidden;
+	position:absolute;
+	margin:-198px auto auto 220px;/*4.11日修改了悬浮弹出框的定位*/
+	line-height:36px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	transition:0.5s all;
+	
+	}
+.box2 li:hover > ul{
+opacity:1;visibility:visible;padding:0}
+
+
+.row2{clear:both;float:right;
+	margin:auto auto 60px auto; }
+.box3{float:left;
+	width:245px;
+	height:245px;
+	background-image:url(../img/gallery/w3.jpg);
+	background-color:#aaa;
+	margin:auto 245px auto auto;
+	display:block;
+	}
+.box3 a{text-decoration:none;}
+.box3 li ul{
+	opacity:0;visibility:hidden;
+	position:absolute;
+	margin:-198px auto auto -272px;/*4.11日修改了悬浮弹出框的定位*/
+	line-height:36px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	transition:0.5s all;
+	}
+.box3 li:hover > ul{
+opacity:1;visibility:visible;border:1px solid #555;}
+.word2{margin:40px 20px 40px 40px;}
+.word2 a{line-height:24px;color:#555;font-size:12px;}
+
+.box4{float:left;
+	width:245px;
+	height:245px;
+	background-image:url(../img/gallery/w4.jpg);
+	background-color:#aaa;
+	display:block;
+	}
+.box4 a{text-decoration:none;}
+.box4 li ul{
+	opacity:0;visibility:hidden;
+	position:absolute;
+	margin:-198px auto auto -270px;/*4.11日修改了悬浮弹出框的定位*/
+	line-height:36px;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	transition:0.5s all;
+	}
+.box4 li:hover > ul{width:242px;height:242px;
+opacity:1;visibility:visible;border:1px solid #555;}
+.word2{margin:40px 20px 40px 60px;}
+.word2 a{line-height:24px;color:#555;font-size:12px;}
